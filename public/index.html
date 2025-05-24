@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruitment Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+
+        <!-- SIDEBAR SECTION -->
+        <div class="sidebar">
+            <h1>Recruitment MS</h1>
+            <ul class="nav-menu">
+                <li class="nav-item active"><a href="index.html">Dashboard</a></li>
+                <li class="nav-item"><a href="job-position.html">Job Position</a></li>
+                <li class="nav-item"><a href="requisition.html">Requisition</a></li>
+                <li class="nav-item"><a href="job-posting.html">Job Posting</a></li>
+            </ul>
+        </div>
+
+        <!-- MAIN CONTENT SECTION -->
+        <div class="main-content">
+            <div class="top-bar">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search..." id="searchInput">
+                </div>
+                <div class="profile-section">
+                    <button class="icon-button notification-btn">
+                        <i class='bx bx-bell'></i>  
+                        <span class="notification-badge">3</span>
+                    </button>
+                    <div class="profile">
+                        <img src="img/pfp-1.jpg" alt="Profile" class="profile-pic">
+                        <span>LEIVY</span>
+                        <div class="profile-dropdown">
+                            <ul>
+                                <li><a href="profile.html">My Profile</a></li>
+                                <li><a href="settings.html">Settings</a></li>
+                                <li class="logout">Logout</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DASHBOARD SECTION -->
+            <div class="dashboard-content" id="dashboard">
+                <!-- Add your dashboard cards, charts, or widgets here -->
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Notification Modal -->
+    <div class="modal hidden" id="notificationModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Notifications</h3>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <!-- Add notification items here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
