@@ -22,7 +22,7 @@ A simple web-based system for managing recruitment applicants.
   - View job posting analytics and performance metrics.
   - Sync job postings to the Application Management System.
 
-- **Recruitment Analytics Dashboard**
+- **Recruitment Dashboard**
   - Track open positions, time-to-fill, requisition status, and other KPIs.
   - Generate reports on recruitment efficiency.
 

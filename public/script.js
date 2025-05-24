@@ -16,30 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Notification modal
-    const notificationBtn = document.querySelector('.notification-btn');
-    const notificationModal = document.getElementById('notificationModal');
-    const closeModal = document.querySelector('.close-modal');
-    if (notificationBtn && notificationModal && closeModal) {
-        notificationBtn.addEventListener('click', function() {
-            notificationModal.classList.add('active');
-            const badge = document.querySelector('.notification-badge');
-            if (badge) {
-                badge.textContent = '0';
-                badge.style.display = 'none';
-            }
-        });
-
-        closeModal.addEventListener('click', function() {
-            notificationModal.classList.remove('active');
-        });
-
-        window.addEventListener('click', function(e) {
-            if (e.target === notificationModal) {
-                notificationModal.classList.remove('active');
-            }
-        });
-    }
 
     // Profile dropdown
     const profile = document.querySelector('.profile');
