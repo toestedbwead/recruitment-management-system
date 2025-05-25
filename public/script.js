@@ -32,13 +32,4 @@ document.addEventListener('DOMContentLoaded', function() {
             if (dropdown) dropdown.style.display = 'none';
         });
     }
-
-    // Search bar (add your own filtering logic as needed)
-    const searchInput = document.getElementById('searchInput');
-    if (searchInput) {
-        searchInput.addEventListener('input', function() {
-            // Implement your search/filter logic here
-            // Example: filter table rows or cards based on input
-        });
-    }
 });
